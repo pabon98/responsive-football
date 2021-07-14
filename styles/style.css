@@ -8,6 +8,7 @@ header {
   font-family: "Poppins", sans-serif;
   margin: 0px;
 }
+/* body font style */
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -37,6 +38,7 @@ body {
   font-size: 64px;
   padding-bottom: 27px;
 }
+/* header part image style */
 .player-image img {
   width: 556px;
   height: 438px;
@@ -47,6 +49,7 @@ body {
   margin-right: 140px;
   margin-bottom: 86px;
 }
+/* tranform & transition effect in image on mouse click */
 .player-image:hover img {
   transform: rotate(360deg);
   transition: transform 2s ease-in-out;
@@ -62,18 +65,30 @@ body {
   border: 2px solid #e02c6d;
   background-color: #e02c6d;
 }
+/* button anchor style */
 .copa-2021 a {
   text-decoration: none;
   color: #ffffff;
 }
+/* button hover style */
+.copa-2021 p:hover
+{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+/* photo album style */
 .photo-album {
+  margin-left: 180px;
+  margin-right: 210px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 }
 .photo-frame {
-  width: 330px;
+  width: 280px;
   height: 510px;
+  left: 180px;
+  top: 747px;
   margin-top: 70px;
   border: 2px solid #ffffff;
   padding: 20px;
@@ -82,6 +97,138 @@ body {
 .photo img {
   width: 100%;
 }
+/* photo detail style */
 .photo-detail p {
   font-size: 16px;
+}
+/* footer style */
+.footer-part{
+    display:grid;
+   justify-content: center;
+}
+/* footer image style */
+.footer-part img{
+    width:483.87px;
+    height: 110px;
+    margin-top: 158px;
+}
+/* footer icon style */
+.icons{
+    width: 170px;
+    height: 32px;
+    color:#B2BEB5;
+    top: 130px;
+    left: 156.94px;
+    font-size:1.5em;
+    margin-top: 20px;
+    margin-left: 135px;
+    display: flex;  
+}
+.icons a{
+    text-decoration: none;
+}
+.fab{
+    border: 1px solid #9ce2ad;
+    border-radius: 25px;
+    margin-left: 15px;
+    
+}
+.far{
+    border: 1px solid #B2BEB5;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+/* copyright part style */
+.copyright p{
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* bonus part 1 style */
+.bonus-part-1-heading{
+    font-size: 30px;
+   margin-top: 100px;
+   text-align: center;
+   
+}
+/* bonus part 1 */
+.bonus-part-1{
+    margin-left: 195px;
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+
+}
+
+.messi-image img{
+    width:500px;
+    height: 450px;
+    margin-top: 100px;
+}
+.about-messi h1{
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.about-messi p{
+    width: 300px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+/* click button style */
+.click-button 
+{
+    color: #ffffff;
+    width: 173px;
+    height: 44px;
+    left: 0;
+    top: 256px;
+    text-decoration: none;
+    border: 2px solid ;
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    margin-left: 100px;
+}
+.about-messi:hover 
+{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+/* bonus part 2 style */
+.bonus-part-2{
+    text-align: center;
+    margin-top: 100px;
+}
+.Greatest-player{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+.box-shadow{
+    padding-top: 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.Greatest-player h3{
+    text-align: center;
+}
+.Maradona img{
+    width: 300px;
+    height: 250px;
+    margin: 10px 20px;
+}
+.Pele img{
+    width: 300px;
+    height: 250px;
+    margin: 10px 20px;
+}
+.Matthaus img{
+    width: 300px;
+    height: 250px;
+    margin: 10px 20px;
 }
